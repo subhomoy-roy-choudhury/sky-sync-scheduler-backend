@@ -1,0 +1,20 @@
+{
+  "name": "sky-sync-scheduler-backend",
+  "version": "1.0.0",
+  "description": "Sync Upcoming Flights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend/issues"
+  },
+  "homepage": "https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend#readme"
+}
