@@ -2,9 +2,11 @@
   "name": "sky-sync-scheduler-backend",
   "version": "1.0.0",
   "description": "Sync Upcoming Flights",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend/issues"
   },
-  "homepage": "https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend#readme"
+  "homepage": "https://github.com/subhomoy-roy-choudhury/sky-sync-scheduler-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "firebase": "^10.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
 }
